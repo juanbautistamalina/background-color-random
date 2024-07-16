@@ -15,13 +15,11 @@ function colorAleatorio(){
     for(let i = 0; i<6; i++){
         aleatorio =  Math.floor(Math.random() * digito.length);
         color += digito[aleatorio];
-        console.log(color);
     }
 
 
     body.style.backgroundColor = color;
     textoColor.innerHTML = color;
-    console.log("New Color: " + color);
 }
 
 
